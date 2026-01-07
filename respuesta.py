@@ -50,8 +50,6 @@ def calculate_panels(panel_width: int, panel_height: int,
         panel_quantities_1 = check_fit( roof_width, roof_height,panel_width, panel_height)
         chequed = True
 
-    print(f"panel_quantities_1: {panel_quantities_1}")
-
 
     #orientacion del panel 2
     if panel_height > roof_width or panel_width > roof_height:
@@ -62,7 +60,6 @@ def calculate_panels(panel_width: int, panel_height: int,
         else:
             panel_quantities_2 = panel_quantities_1
 
-    print(f"panel_quantities_2: {panel_quantities_2}")
 
     return max(panel_quantities_1, panel_quantities_2)
 
