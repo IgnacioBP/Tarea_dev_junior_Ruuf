@@ -36,15 +36,13 @@ Tu solución debe pasar los siguientes casos de prueba:
 
 Deja acá el link a tu video explicando tu solución con tus palabras
 
-Video explicativo:
+Video explicativo: https://drive.google.com/file/d/120VkKOUzhrTrf9kd-yvyDXgMXS1foPPs/view?usp=sharing
 
 
 ---
 
 ## 🤔 Supuestos y Decisiones
 
-*[Si tuviste que tomar algún supuesto o decisión de diseño, explícalo aquí]*
-
 Para el desarrollo de la solucion se asumio que los rectangulos solo rotaban en angulos de 90 grados.
 
-Se asumio que solamente se recibiria input con dimensiones mediante un archivo json con el formato porporcionado en el archivo "test_cases.json"
+Se asumio tambien que solamente se recibiria input con dimensiones mediante un archivo json con el formato porporcionado en el archivo "test_cases.json".
